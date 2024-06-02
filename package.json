@@ -1,0 +1,35 @@
+{
+  "name": "@taksimjs/taksim",
+  "description": "Minimal web framework.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Onur Ravli <onur@onurravli.com> (https://onurravli.com)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taksimjs/taksim.git"
+  },
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^20.13.0",
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
+    "@typescript-eslint/parser": "^7.11.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.0",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "format": "prettier --write .",
+    "lint": "eslint --ext=ts --fix ."
+  },
+  "bugs": {
+    "url": "https://github.com/taksimjs/taksim/issues"
+  },
+  "homepage": "https://github.com/taksimjs/taksim#readme",
+  "dependencies": {
+    "eslint-scope": "^7.2.2",
+    "eslint-visitor-keys": "^3.4.3"
+  }
+}
